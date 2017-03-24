@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: FirstIOT-project
+  host: FirstIOT-project
+  disk_quota: 1024M
+  services:
+  - FirstIOT-project-cloudantNoSQLDB
+  - FirstIOT-project-iotf-service
